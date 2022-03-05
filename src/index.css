@@ -4,6 +4,14 @@ html{
     overflow-x: hidden;
     scroll-behavior:smooth;
 }
+::-webkit-scrollbar {
+    width: 9px !important;
+
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: tomato;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
