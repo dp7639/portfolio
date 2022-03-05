@@ -1,16 +1,18 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
-import { FaAngular, FaBootstrap, FaCss3, FaHtml5, FaJava, FaJsSquare, FaNodeJs, FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from 'react-icons/fa'
+import { SiRedux } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import AOS from 'aos'
 AOS.init(
   {
-    duration:1000
+    duration: 1000
   }
 );
 export default function Home() {
 
   useEffect(() => {
-    window.scrollTo(0,0) 
+    window.scrollTo(0, 0)
   }, []);
   return (
     <Layout>
@@ -23,9 +25,10 @@ export default function Home() {
               <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_lcsx30ez.json" background="transparent" speed="1" loop autoplay></lottie-player>
             </div>
 
-            <div className='font-bold text-white md:px-5'>
-              <h1 className='text-7xl md:text-4xl' data-aos='slide-right'>Hii , I am <b className='text-yellow-500'>DEEPA</b></h1>
-              <h1 className='text-4xl md:text-2xl' data-aos='slide-left'>FullStack <b className='text-red-500'>Developer</b></h1>
+            <div className='font-bold text-white md:px-1 border-l-2 border-white' data-aos='slide-down'>
+              <h1 className='text-7xl md:text-4xl mx-3 md:mx-2 md:py-1  border-b-2 border-white py-3' data-aos='slide-right'>Hii , I am <b className='text-yellow-500'>DEEPA</b></h1>
+
+              <h1 className='text-4xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> MERN Stack <b className='text-red-500'>Developer</b></h1>
             </div>
 
           </div>
@@ -35,10 +38,10 @@ export default function Home() {
           <h1 className='text-4xl text-blue-800 font-bold text-center my-8' data-aos='slide-up'>Technologies I USE</h1>
           <div className='grid grid-cols-4 md:grid-cols-1'>
 
-            <FaReact size={180} color='cyan' className='w-full text-center mt-20' />
-            <FaAngular size={180} color='red' className='w-full text-center mt-20 animate-bounce' />
-            <FaJava size={180} color='orange' className='w-full text-center mt-20 animate-bounce' />
-            <FaNodeJs size={180} color='green' className='w-full text-center mt-20' />
+            <FaReact size={180} color='#61DBFB' className='w-full text-center mt-20' />
+            <SiRedux size={180} color='#764abc' className='w-full text-center mt-20 animate-bounce' />
+            <SiMongodb size={180} color='#589636' className='w-full text-center mt-20 animate-bounce' />
+            <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20' />
             <FaBootstrap size={180} color='blue' className='w-full text-center mt-20 animate-bounce' />
             <FaJsSquare size={180} color='green' className='w-full text-center mt-20' />
             <FaHtml5 size={180} color='orange' className='w-full text-center mt-20' />
@@ -119,17 +122,17 @@ export default function Home() {
             <div className='absolute inset-0 flex flex-col items-center justify-center'>
 
               <h1 className='text-2xl font-bold'>Hi , Hello , Namaste...
-              <hr />
-              <pre className='text-xl my-5 md:text-sm font-mont font-semibold'>
-                {JSON.stringify(
-                  {
-                  name: 'Deepa.J',
-                  age: null,
-                  gender: 'Female',
-                  country: 'India'
-                  }, null, 2) 
-                }
-              </pre>
+                <hr />
+                <pre className='text-xl my-5 md:text-sm font-mont font-semibold'>
+                  {JSON.stringify(
+                    {
+                      name: 'Deepa.J',
+                      age: null,
+                      gender: 'Female',
+                      country: 'India'
+                    }, null, 2)
+                  }
+                </pre>
               </h1>
             </div>
           </div>
