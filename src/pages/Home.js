@@ -3,6 +3,10 @@ import Layout from '../components/Layout';
 import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from 'react-icons/fa'
 import { SiRedux } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import AOS from 'aos'
 AOS.init(
   {
@@ -40,12 +44,17 @@ export default function Home() {
 
             <FaReact size={180} color='#61DBFB' className='w-full text-center mt-20' />
             <SiRedux size={180} color='#764abc' className='w-full text-center mt-20 animate-bounce' />
-            <SiMongodb size={180} color='#589636' className='w-full text-center mt-20 animate-bounce' />
+            <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20 animate-bounce' />
             <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20' />
-            <FaBootstrap size={180} color='blue' className='w-full text-center mt-20 animate-bounce' />
-            <FaJsSquare size={180} color='green' className='w-full text-center mt-20' />
-            <FaHtml5 size={180} color='orange' className='w-full text-center mt-20' />
-            <FaCss3 size={180} color='blue' className='w-full text-center mt-20 animate-bounce' />
+            <FaBootstrap size={180} color='#563d7c' className='w-full text-center mt-20 animate-bounce' />
+            <FaJsSquare size={180} color='#f7df1e' className='w-full text-center mt-20' />
+            <FaHtml5 size={180} color='#e34c26' className='w-full text-center mt-20' />
+            <FaCss3 size={180} color='#264de4' className='w-full text-center mt-20 animate-bounce' />
+
+            <SiTailwindcss size={180} color='#00b4b6' className='w-full text-center mt-20 animate-bounce' />
+            <SiTypescript size={180} color='#3178c6' className='w-full text-center mt-20' />
+            <SiNextdotjs size={180} color='Black' className='w-full text-center mt-20' />
+            <SiFirebase size={180} color='#FFA000' className='w-full text-center mt-20 animate-bounce' />
 
           </div>
         </div>
@@ -82,9 +91,13 @@ export default function Home() {
                 <hr />
                 <p className='font-semibold my-2'>HTML5/CSS3</p>
                 <p className='font-semibold my-2'>React</p>
+                <p className='font-semibold my-2'>React Native</p>
                 <p className='font-semibold my-2'>Javascript</p>
                 <p className='font-semibold my-2'>Jquery</p>
+                <p className='font-semibold my-2'>TypeScript</p>
+                <p className='font-semibold my-2'>Next.js</p>
                 <p className='font-semibold my-2'>Redux</p>
+
 
               </div>
               <div className='text-center md:text-center md:my-3'>
@@ -92,7 +105,7 @@ export default function Home() {
                 <hr />
 
                 <p className='font-semibold my-2'>Bootstrap</p>
-                <p className='font-semibold my-2'>Tailwind</p>
+                <p className='font-semibold my-2'>TailwindCSS</p>
                 <p className='font-semibold my-2'>Ant Design</p>
                 <p className='font-semibold my-2'>Material UI</p>
                 <p className='font-semibold my-2'>Semantic UI</p>
@@ -104,6 +117,7 @@ export default function Home() {
                 <p className='font-semibold my-2'>Node JS</p>
                 <p className='font-semibold my-2'>Express JS</p>
                 <p className='font-semibold my-2'>Mongo DB</p>
+                <p className='font-semibold my-2'>Firebase</p>
 
 
               </div>
