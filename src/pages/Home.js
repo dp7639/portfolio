@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
-import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaJava, FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa'
 // FaNodeJs
+// FaJava
 import { SiRedux } from "react-icons/si";
 // import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
-import { SiAwsamplify } from "react-icons/si";
-import { AiOutlineConsoleSql } from "react-icons/ai";
+// import { SiFirebase } from "react-icons/si";
+// import { SiAwsamplify } from "react-icons/si";
+// import { AiOutlineConsoleSql } from "react-icons/ai";
 
 import AOS from 'aos'
 AOS.init(
