@@ -68,8 +68,8 @@ export default function Home() {
               color="#00758f"
               className="w-full text-center mt-20"
             /> */}
-            <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20' />
-            <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20 animate-bounce' /> 
+            <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20 animate-bounce' />
+            <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20' /> 
             <SiFirebase size={180} color='#FFA000' className='w-full text-center mt-20' />
             <SiAwsamplify size={180} color='#FF9900' className='w-full text-center mt-20 animate-bounce' /> 
 
@@ -182,7 +182,7 @@ export default function Home() {
                 <pre className='text-xl my-5 md:text-sm font-mont font-semibold'>
                   {JSON.stringify(
                     {
-                      name: 'Deepa.B',
+                      name: 'Deepa',
                       age: null,
                       gender: 'Female',
                       country: 'India'
