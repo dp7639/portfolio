@@ -31,7 +31,7 @@ export default function Footer() {
             <div className='h-1 border-2 border-gray-50 border-dotted'>
 
             </div>
-            <p className='text-gray-50 my-2'>Deepa.J</p>
+            <p className='text-gray-50 my-2'>Deepa.B</p>
           </div>
         </div>
       </div>
