@@ -136,9 +136,9 @@ export default function Home() {
                 <hr />
                  {/* <p className="font-semibold my-2">Java</p>
                 <p className="font-semibold my-2">SQL</p>  */}
-                  <p className='font-semibold my-2'>Node JS</p>
+                  {/* <p className='font-semibold my-2'>Node JS</p>
                 <p className='font-semibold my-2'>Express JS</p>
-                <p className='font-semibold my-2'>Mongo DB</p>  
+                <p className='font-semibold my-2'>Mongo DB</p>   */}
                 <p className="font-semibold my-2">Firebase</p>
                 <p className="font-semibold my-2">AWS Amplify</p>
               </div>
