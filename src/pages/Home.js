@@ -162,7 +162,7 @@ export default function Home() {
                 <hr />
                 <p className='font-semibold my-2'>Google Cloud</p>
                 <p className='font-semibold my-2'>AWS Cloud</p>
-                  <p className='font-semibold my-2'>MERN Stack</p>  
+                  {/* <p className='font-semibold my-2'>MERN Stack</p>   */}
                 <p className='font-semibold my-2'>Git / GitHub</p>
               </div>
             </div>
