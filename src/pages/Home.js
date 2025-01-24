@@ -124,7 +124,8 @@ export default function Home() {
                 <p className='font-semibold my-2'>Tailwind CSS</p>
                 <p className='font-semibold my-2'>Ant Design</p>
                 <p className='font-semibold my-2'>Material UI</p>
-                <p className='font-semibold my-2'>Semantic UI</p>
+                {/* <p className='font-semibold my-2'>Semantic UI</p> */}
+                <p className='font-semibold my-2'>Figma</p>
                 <p className='font-semibold my-2'>Photoshop</p>
                 <p className='font-semibold my-2'>Illustrator</p>
                 <p className='font-semibold my-2'>Wireframing</p>
