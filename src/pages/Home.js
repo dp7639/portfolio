@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
-import { FaCss3, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa'
-// FaBootstrap
-// FaNodeJs
+import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaBootstrap, FaNodeJs } from 'react-icons/fa'
 // FaJava
 import { SiRedux } from "react-icons/si";
-// import { SiMongodb } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-// import { SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiAwsamplify } from "react-icons/si";
 // import { AiOutlineConsoleSql } from "react-icons/ai";
@@ -56,9 +54,9 @@ export default function Home() {
             
              
             
-            {/* <FaBootstrap size={180} color='#563d7c' className='w-full text-center mt-20' />   */}
+            <FaBootstrap size={180} color='#563d7c' className='w-full text-center mt-20' />   
             <SiTailwindcss size={180} color='#00b4b6' className='w-full text-center mt-20' />
-             {/* <SiNextdotjs size={180} color='Black' className='w-full text-center mt-20 animate-bounce' />  */}
+             <SiNextdotjs size={180} color='Black' className='w-full text-center mt-20 animate-bounce' />  
              {/* <FaJava
               size={180}
               color="#3fb4be"
@@ -69,8 +67,8 @@ export default function Home() {
               color="#00758f"
               className="w-full text-center mt-20 animate-bounce"
             />  */}
-            {/* <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20 animate-bounce' />
-            <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20' />     */}
+            <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20 animate-bounce' />
+            <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20' />     
              <SiFirebase size={180} color='#FFA000' className='w-full text-center mt-20' />
             <SiAwsamplify size={180} color='#FF9900' className='w-full text-center mt-20 animate-bounce' />    
 
@@ -138,9 +136,9 @@ export default function Home() {
                 <hr />
                  {/* <p className="font-semibold my-2">Java</p>
                 <p className="font-semibold my-2">SQL</p>  */}
-                {/* <p className='font-semibold my-2'>Node JS</p>
+               <p className='font-semibold my-2'>Node JS</p>
                 <p className='font-semibold my-2'>Express JS</p>
-                <p className='font-semibold my-2'>Mongo DB</p>    */}
+                <p className='font-semibold my-2'>Mongo DB</p>    
                 <p className="font-semibold my-2">Firebase</p>
                 <p className="font-semibold my-2">AWS Amplify</p>
               </div>
@@ -163,7 +161,7 @@ export default function Home() {
                 <hr />
                 <p className='font-semibold my-2'>Google Cloud</p>
                 <p className='font-semibold my-2'>AWS Cloud</p>
-                  {/* <p className='font-semibold my-2'>MERN Stack</p>    */}
+                   <p className='font-semibold my-2'>MERN Stack</p>    
                 <p className='font-semibold my-2'>Git / GitHub</p>
               </div>
             </div>
