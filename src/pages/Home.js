@@ -35,7 +35,7 @@ export default function Home() {
             <div className='font-bold text-white md:px-1 border-l-2 border-white txt-blk' data-aos='slide-down'>
               <h1 className='text-7xl md:text-4xl mx-3 md:mx-2 md:py-1  border-b-2 border-white py-3' data-aos='slide-right'>Hii , I am <b className='text-yellow-500'>DEEPA</b></h1>
 
-              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Front End <b className='text-red-500'> Developer </b></h1>
+              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Full Stack <b className='text-red-500'> Developer </b></h1>
             </div>
 
           </div>
