@@ -7,8 +7,8 @@ import { SiRedux } from "react-icons/si";
 // import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
-import { SiAwsamplify } from "react-icons/si";
+// import { SiFirebase } from "react-icons/si";
+// import { SiAwsamplify } from "react-icons/si";
 // import { AiOutlineConsoleSql } from "react-icons/ai";
 
 import AOS from 'aos'
@@ -36,7 +36,7 @@ export default function Home() {
             <div className='font-bold text-white md:px-1 border-l-2 border-white txt-blk' data-aos='slide-down'>
               <h1 className='text-7xl md:text-4xl mx-3 md:mx-2 md:py-1  border-b-2 border-white py-3' data-aos='slide-right'>Hii , I am <b className='text-yellow-500'>DEEPA</b></h1>
 
-              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Front End  <b className='text-red-500'> Developer </b></h1>
+              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Senior Front-End <b className='text-red-500'> Developer </b></h1>
             </div>
 
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
                 <h1 className='text-xl font-bold'>APIs</h1>
                 <hr />
                 <p className="font-semibold my-2 text-center">Rest APIs</p>
-                {/* <p className='font-semibold my-2 text-center'>GraphQL APIs</p> */}
+                <p className='font-semibold my-2 text-center'>GraphQL APIs</p> 
               </div>
               <div className='text-center md:text-center md:my-3'>
                 <h1 className='text-xl font-bold'>Deployment</h1>
