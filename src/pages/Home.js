@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
-import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaBootstrap } from 'react-icons/fa'
+import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaBootstrap, FaNodeJs } from 'react-icons/fa'
 // FaJava
 // FaNodeJs
 import { SiRedux } from "react-icons/si";
-// import { SiMongodb } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-// import { SiFirebase } from "react-icons/si";
-// import { SiAwsamplify } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiAwsamplify } from "react-icons/si";
 // import { AiOutlineConsoleSql } from "react-icons/ai";
 
 import AOS from 'aos'
@@ -36,7 +36,7 @@ export default function Home() {
             <div className='font-bold text-white md:px-1 border-l-2 border-white txt-blk' data-aos='slide-down'>
               <h1 className='text-7xl md:text-4xl mx-3 md:mx-2 md:py-1  border-b-2 border-white py-3' data-aos='slide-right'>Hii , I am <b className='text-yellow-500'>DEEPA</b></h1>
 
-              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Senior Front-End <b className='text-red-500'> Developer </b></h1>
+              <h1 className='text-5xl md:text-2xl md:mx-2 md:py-1 mx-4 py-2' data-aos='slide-left'> Full Stack <b className='text-red-500'> Developer </b></h1>
             </div>
 
           </div>
@@ -68,10 +68,10 @@ export default function Home() {
               color="#00758f"
               className="w-full text-center mt-20 animate-bounce"
             />  */}
-             {/* <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20 animate-bounce' />
+             <FaNodeJs size={180} color='#3C873A' className='w-full text-center mt-20 animate-bounce' />
             <SiMongodb size={180} color='#3FA037' className='w-full text-center mt-20' />       
              <SiFirebase size={180} color='#FFA000' className='w-full text-center mt-20' />
-            <SiAwsamplify size={180} color='#FF9900' className='w-full text-center mt-20 animate-bounce' />  */}   
+            <SiAwsamplify size={180} color='#FF9900' className='w-full text-center mt-20 animate-bounce' />     
 
           </div>
         </div>
@@ -137,9 +137,9 @@ export default function Home() {
                 <hr />
                  {/* <p className="font-semibold my-2">Java</p>
                 <p className="font-semibold my-2">SQL</p>  */}
-               {/* <p className='font-semibold my-2'>Node JS</p>
+               <p className='font-semibold my-2'>Node JS</p>
                 <p className='font-semibold my-2'>Express JS</p>
-                <p className='font-semibold my-2'>Mongo DB</p>      */}
+                <p className='font-semibold my-2'>Mongo DB</p>      
                 <p className="font-semibold my-2">Firebase</p>
                 <p className="font-semibold my-2">AWS Amplify</p>
               </div>
@@ -162,7 +162,7 @@ export default function Home() {
                 <hr />
                 <p className='font-semibold my-2'>Google Cloud</p>
                 <p className='font-semibold my-2'>AWS Cloud</p>
-                   {/* <p className='font-semibold my-2'>MERN Stack</p>      */}
+                   <p className='font-semibold my-2'>MERN Stack</p>      
                 <p className='font-semibold my-2'>Git / GitHub</p>
               </div>
             </div>
