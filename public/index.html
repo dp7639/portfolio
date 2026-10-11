@@ -1,46 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepa | AI & Generative AI Engineer</title>
+  <meta name="description" content="Portfolio of Deepa J — AI & Generative AI Engineer with 6+ years experience specializing in RAG Pipelines, Agentic Systems, FastAPI, and Full-Stack development." />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <title>Deepa-Portfolio</title>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    code, pre, .font-mono { font-family: 'Fira Code', monospace; }
+  </style>
+</head>
+<body class="bg-[#090d16] text-slate-300 antialiased selection:bg-cyan-500 selection:text-white">
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 w-full z-50 backdrop-blur-md bg-[#090d16]/85 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-bold text-lg text-white tracking-tight">
+        <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+        Deepa 
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#home" class="hover:text-cyan-400 transition">About</a>
+        <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400 transition">Systems & Projects</a>
+        <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+        <a href="https://www.linkedin.com/in/deepa-j-38a6bb390" target="_blank" class="px-4 py-2 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 hover:bg-cyan-500/20 transition flex items-center gap-2">
+          <i class="fab fa-linkedin"></i> Connect
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="home" class="pt-36 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/25 text-cyan-400 text-xs font-semibold mb-6">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      6+ Years Software Engineering Experience
+    </div>
     
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-[1.15]">
+      AI &amp; Generative AI Engineer <br />
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500">
+        RAG Pipelines &amp; Agentic Architectures
+      </span>
+    </h1>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <p class="text-lg text-slate-400 max-w-2xl mb-10 leading-relaxed">
+      Specializing in low-latency RAG systems, FastAPI microservices, and citation-grounded synthesis. Backed by a solid 6+ year foundation across Python, modern MERN architectures, and enterprise API design.
+    </p>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <div class="flex flex-wrap items-center gap-4">
+      <a href="#projects" class="px-6 py-3 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold transition flex items-center gap-2">
+        <i class="fas fa-terminal text-sm"></i> View Live Systems
+      </a>
+      <a href="https://github.com/dp7639" target="_blank" class="px-6 py-3 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-white font-medium transition flex items-center gap-2">
+        <i class="fab fa-github"></i> GitHub (@dp7639)
+      </a>
+      <a href="https://www.linkedin.com/in/deepa-j-38a6bb390" target="_blank" class="px-6 py-3 rounded-lg border border-slate-700 bg-slate-900/60 hover:bg-slate-800 text-white font-medium transition flex items-center gap-2">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </main>
+
+  <!-- Technical Competencies -->
+  <section id="skills" class="py-16 border-t border-slate-800/80 bg-slate-950/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center gap-3 mb-10">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Core Competencies</h2>
+        <div class="h-[1px] bg-slate-800 flex-1"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- AI & GenAI -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl space-y-3">
+          <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-lg">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">AI &amp; Generative AI</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Retrieval-Augmented Generation (RAG), Agentic AI Workflows, Dense Embeddings, Vector Search Fundamentals, Citation-Grounded Synthesis, Context Chunking.
+          </p>
+        </div>
+
+        <!-- Backend -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl space-y-3">
+          <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 text-lg">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Backend &amp; API Engineering</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Python, FastAPI, Pydantic, RESTful Architecture, Node.js, Express.js, PHP, Automated Testing with pytest, OpenAPI / Swagger UI.
+          </p>
+        </div>
+
+        <!-- Full-Stack & Platforms -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl space-y-3">
+          <div class="w-10 h-10 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400 text-lg">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Full-Stack &amp; DevOps</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            React.js, MERN Stack, MongoDB, MySQL, Git/GitHub, Render Cloud Deployment, CI/CD Pipeline Automation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured System Architecture -->
+  <section id="projects" class="py-20 max-w-6xl mx-auto px-6">
+    <div class="flex items-center gap-3 mb-10">
+      <h2 class="text-2xl font-bold text-white tracking-tight">Featured Production System</h2>
+      <div class="h-[1px] bg-slate-800 flex-1"></div>
+    </div>
+
+    <div class="grid lg:grid-cols-12 gap-8 bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-cyan-500/30 transition">
+      <div class="lg:col-span-7 space-y-4">
+        <span class="text-xs uppercase font-semibold text-cyan-400 tracking-wider">Live Production Microservice</span>
+        <h3 class="text-2xl font-bold text-white">Enterprise DocuMind AI Engine</h3>
+        <p class="text-slate-400 leading-relaxed text-sm">
+          A high-accuracy multimodal RAG pipeline engineered for complex enterprise document interrogation. Built with asynchronous endpoints, cosine similarity retrieval, and strict citation grounding to prevent model hallucinations.
+        </p>
+
+        <div class="flex flex-wrap gap-2 pt-2">
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Python</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">FastAPI</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Vector Embeddings</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">PyTest (100% Coverage)</span>
+          <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300">Render Cloud</span>
+        </div>
+
+        <div class="flex items-center gap-6 pt-4 text-sm font-semibold">
+          <a href="https://enterprise-documind.onrender.com/docs" target="_blank" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1.5">
+            <i class="fas fa-external-link-alt text-xs"></i> Live Swagger UI Docs
+          </a>
+          <a href="https://github.com/dp7639/enterprise-documind" target="_blank" class="text-slate-400 hover:text-white flex items-center gap-1.5">
+            <i class="fab fa-github"></i> Repository
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 flex flex-col justify-center bg-slate-950/80 border border-slate-800 rounded-xl p-5 font-mono text-xs">
+        <div class="text-slate-500 mb-3">// Production Endpoints</div>
+        <div class="flex items-center justify-between py-1 border-b border-slate-900">
+          <span class="text-emerald-400 font-semibold">GET /health</span>
+          <span class="text-slate-500 text-[11px]">System Status</span>
+        </div>
+        <div class="flex items-center justify-between py-1 border-b border-slate-900">
+          <span class="text-cyan-400 font-semibold">POST /api/v1/upload</span>
+          <span class="text-slate-500 text-[11px]">Document Indexing</span>
+        </div>
+        <div class="flex items-center justify-between py-1 border-b border-slate-900">
+          <span class="text-cyan-400 font-semibold">POST /api/v1/query</span>
+          <span class="text-slate-500 text-[11px]">Grounded QA</span>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-800 text-emerald-400 flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>Status: 200 OK (Render Live)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Experience Timeline -->
+  <section id="experience" class="py-16 border-t border-slate-800/80 bg-slate-950/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center gap-3 mb-10">
+        <h2 class="text-2xl font-bold text-white tracking-tight">Engineering Experience</h2>
+        <div class="h-[1px] bg-slate-800 flex-1"></div>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Be10x -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">AI & Generative AI Engineer (Accelerator Track)</h3>
+            <span class="text-xs text-cyan-400 font-mono">Jan 2026 – Present</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">Be10x (Advanced AI Accelerator Program)</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Architected and evaluated end-to-end Generative AI workflows, focusing on context window management, dense embedding models, and hybrid retrieval. Designed multi-step agent reasoning pipelines and optimized inference latency for AI microservices.
+          </p>
+        </div>
+
+        <!-- Unified Mentor -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">Fullstack Web Development Intern</h3>
+            <span class="text-xs text-cyan-400 font-mono">Jul 2025 – Jan 2026</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">Unified Mentor Pvt. Ltd.</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Constructed responsive web applications using MongoDB, Express.js, React.js, and Node.js. Integrated decoupled REST APIs with asynchronous frontend state management and structured database schemas.
+          </p>
+        </div>
+
+        <!-- Focuzcloud Technologies -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">Full Stack Developer</h3>
+            <span class="text-xs text-cyan-400 font-mono">Jul 2017 – Jan 2018</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">Focuzcloud Technologies Private Ltd</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Spearheaded full-stack application development, implementing dynamic client-side views using React.js and JavaScript (ES6+). Constructed modular backend REST API endpoints, standardizing data exchange formats and reducing client-side latency.
+          </p>
+        </div>
+
+        <!-- Temple City Technologies -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">Web Programmer</h3>
+            <span class="text-xs text-cyan-400 font-mono">Jan 2015 – May 2017</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">Temple City Technologies (P) Ltd.</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Designed client-facing websites and internal web utilities using HTML5, CSS3, JavaScript, and PHP. Maintained cross-browser compatibility, database querying routines, and routine server-side cron scripts.
+          </p>
+        </div>
+
+        <!-- VAR Infonet Services -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">PHP Developer</h3>
+            <span class="text-xs text-cyan-400 font-mono">May 2013 – Dec 2013</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">VAR Infonet Services</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Developed database-driven web applications and custom business management software using PHP and MySQL. Implemented clean MVC architectures, optimized SQL queries, and integrated third-party REST API endpoints.
+          </p>
+        </div>
+
+        <!-- Filcosys Software -->
+        <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-white">Software Trainee</h3>
+            <span class="text-xs text-cyan-400 font-mono">Jun 2011 – Oct 2012</span>
+          </div>
+          <div class="text-xs text-cyan-400 font-medium mb-3">Filcosys Software Private Limited</div>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Developed backend modules, drafted technical specifications, and conducted automated unit and integration tests. Systematically resolved bug reports across staging releases and maintained version-controlled release branches.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 border-t border-slate-800 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© 2026 Deepa. AI &amp; Generative AI Engineer </p>
+      <div class="flex items-center gap-6">
+        <a href="https://github.com/dp7639" target="_blank" class="hover:text-slate-300 transition">GitHub</a>
+        <a href="https://www.linkedin.com/in/deepa-j-38a6bb390" target="_blank" class="hover:text-slate-300 transition">LinkedIn</a>
+        <a href="https://enterprise-documind.onrender.com/docs" target="_blank" class="hover:text-slate-300 transition">Live API</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>
